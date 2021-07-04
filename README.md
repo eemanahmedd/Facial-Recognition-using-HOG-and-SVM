@@ -31,7 +31,7 @@ dataset. We chose Support Vector Machine as our classifier for this project. SVM
 supervised learning models with associated learning algorithms that analyze data and recognize 
 patterns. We use a nonlinear support vector classification model with the kernel as radial basis 
 function (rbf). We fit the classifier with the data that was transformed using HOG and the labels 
-which were extracted while reading the images in the ‘D :/Project Data_org/final’ directory (This 
+which were extracted while reading the images in the *'D :/Project Data_org/final'* directory (This 
 would be a different one according to your system.) Once the classifier is trained we then take 
 our testing dataset and check whether the label predicted by our classifier is same as that given in 
 the test set. Finally, model is saved as *model_hog.sav* in local directory to use it later. This is 
